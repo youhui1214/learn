@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>dayjs</title>
+  <script src="js/dayjs.min-1.11.10.js"></script>
+</head>
+<body>
+  <div>dayjs</div>
+  <div>当前时间：<span id="dateTime"></span></div>
+
+  <script>
+
+    const aa = dayjs().format('YYYY-MM-DD HH:mm:ss')
+    console.log(aa)
+    document.getElementById('dateTime').innerText = aa
+
+
+
+  </script>
+</body>
+</html>
